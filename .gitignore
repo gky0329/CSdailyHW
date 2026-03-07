@@ -1,0 +1,115 @@
+# === 编译输出 ===
+# C++ 构建输出
+output/
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+*.pyc
+build/
+Build/
+bin/
+Bin/
+lib/
+Lib/
+x64/
+x86/
+Debug/
+Release/
+*.exe
+# Python 字节码
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === IDE - VSCode ===
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# === Windows 系统文件 ===
+# 缩略图缓存
+Thumbs.db
+ehthumbs.db
+# 文件夹自定义
+Desktop.ini
+# 回收站
+$RECYCLE.BIN/
+# Windows 安装文件
+*.cab
+*.msi
+*.msm
+*.msp
+
+# === Python 虚拟环境/包 ===
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+# 打包文件
+*.egg-info/
+*.egg
+dist/
+MANIFEST
+# pip 日志
+pip-log.txt
+pip-delete-this-directory.txt
+# 我的文档
+# 缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === C++ 特定 ===
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+*.cmake
+!_CMakeLists.txt
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vs/
+*.user
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.log
+ipch/
+
+# === 日志和数据 ===
+logs/
+*.log
+*.dat
+*.cache
+temp/
+tmp/
+
+# === 其他通用 ===
+# 备份文件
+*.bak
+*.swp
+*.swo
+*~
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# 编辑器临时文件
+*.tmp
+*~
