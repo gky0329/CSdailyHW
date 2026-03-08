@@ -1,43 +1,14 @@
 # === 编译输出 ===
 # C++ 构建输出
-output/
-*.dll
-*.lib
-*.pdb
-*.ilk
-*.exp
-*.obj
-*.o
-*.pyc
-build/
-Build/
-bin/
-Bin/
-lib/
-Lib/
-x64/
-x86/
-Debug/
-Release/
+cppforW/output/
+cppforL/[!.]*
 *.exe
-# Python 字节码
-__pycache__/
-*.py[cod]
-*$py.class
 
 # === IDE - VSCode ===
-.vscode/
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+**/.vscode/
 *.code-workspace
 
 # === Windows 系统文件 ===
-# 缩略图缓存
-Thumbs.db
-ehthumbs.db
-# 文件夹自定义
-Desktop.ini
 # 回收站
 $RECYCLE.BIN/
 # Windows 安装文件
@@ -48,11 +19,8 @@ $RECYCLE.BIN/
 
 # === Python 虚拟环境/包 ===
 # 虚拟环境
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
+**/.venv/
+**/venv/
 # 打包文件
 *.egg-info/
 *.egg
