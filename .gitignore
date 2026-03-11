@@ -1,7 +1,9 @@
 # === 编译输出 ===
 # C++ 构建输出
 cppforW/output/
-cppforL/[!.]*
+cppforL/**
+!cppforL/**/
+!cppforL/**/*.*
 *.exe
 
 # === IDE - VSCode ===

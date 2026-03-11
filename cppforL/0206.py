@@ -1,0 +1,11 @@
+a=int(input())
+if(a%4):
+    print("N")
+elif(a%100):
+    print("Y")
+elif(a%400):
+    print("N")
+elif(a%3200):
+    print("Y")
+else:
+    print("N")
